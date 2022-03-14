@@ -5,8 +5,9 @@
 Then, you have to go through the css file to rename the fonts. The easist way is to find the rules in here
 or by using the web inspector in the browser. Then, rewrite the css rules in the "custom.css" file. They will
 take precedence the ones in this file. */
-@import url("https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic");
+/*@import url("https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic");*/
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1589,7 +1590,8 @@ take precedence the ones in this file. */
 	}
 
 	body, input, select, textarea {
-		font-family: "Lato", Arial, Helvetica, sans-serif;
+		/*font-family: "Lato", Arial, Helvetica, sans-serif;*/
+		font-family: 'Libre Franklin', sans-serif;;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -1734,7 +1736,7 @@ take precedence the ones in this file. */
 	}
 
 	a {
-		color: #1abc9c;
+		color: #217e9e;
 	}
 
 	strong, b {
@@ -1743,6 +1745,22 @@ take precedence the ones in this file. */
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #555;
+	}
+	
+	h1{
+		color:#217e9e;
+	}
+
+	h2{
+
+	}
+
+	h3{
+
+	}
+
+	h4{
+	color:	#ffa347;
 	}
 
 	blockquote {
@@ -1894,7 +1912,7 @@ take precedence the ones in this file. */
 	input[type="button"],
 	button,
 	.button {
-		background-color: #1abc9c;
+		background-color: #ffa347;
 		color: #fff !important;
 	}
 
@@ -1903,7 +1921,7 @@ take precedence the ones in this file. */
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1dd2af;
+			background-color: #ffa347;
 		}
 
 		input[type="submit"]:active,
@@ -1911,7 +1929,7 @@ take precedence the ones in this file. */
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #17a689;
+			background-color: #ffa347;
 		}
 
 		input[type="submit"].alt,
@@ -1953,7 +1971,7 @@ take precedence the ones in this file. */
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #3498db;
+			background-color: #ffa347;
 			color: #fff !important;
 		}
 
@@ -1962,7 +1980,7 @@ take precedence the ones in this file. */
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #4aa3df;
+				background-color: #ffa347;
 			}
 
 			input[type="submit"].special:active,
@@ -1970,7 +1988,7 @@ take precedence the ones in this file. */
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #258cd1;
+				background-color: #ffa347;
 			}
 
 /* Form */
@@ -2182,7 +2200,7 @@ take precedence the ones in this file. */
 	input[type="radio"]:checked + label:before {
 		background-color: #fff;
 		border-color: #fff;
-		color: #1abc9c;
+		color: #ffa347;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2625,19 +2643,19 @@ take precedence the ones in this file. */
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.wrapper.style1 a {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.wrapper.style1 blockquote {
@@ -2662,7 +2680,7 @@ take precedence the ones in this file. */
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #1abc9c;
+				background-color: #ffa347;
 				color: #fff !important;
 			}
 
@@ -2679,7 +2697,7 @@ take precedence the ones in this file. */
 				.wrapper.style1 input[type="button"]:active,
 				.wrapper.style1 button:active,
 				.wrapper.style1 .button:active {
-					background-color: #17a689;
+					background-color: #ffa347;
 				}
 
 				.wrapper.style1 input[type="submit"].alt,
@@ -2689,7 +2707,7 @@ take precedence the ones in this file. */
 				.wrapper.style1 .button.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-					color: #1abc9c !important;
+					color: #ffa347 !important;
 				}
 
 					.wrapper.style1 input[type="submit"].alt:hover,
@@ -2721,12 +2739,12 @@ take precedence the ones in this file. */
 				.wrapper.style1 input[type="button"].special,
 				.wrapper.style1 button.special,
 				.wrapper.style1 .button.special {
-					background-color: #1abc9c;
+					background-color: #ffa347;
 					color: #fff !important;
 				}
 
 			.wrapper.style1 label {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.wrapper.style1 input[type="text"],
@@ -2743,8 +2761,8 @@ take precedence the ones in this file. */
 				.wrapper.style1 input[type="email"]:focus,
 				.wrapper.style1 select:focus,
 				.wrapper.style1 textarea:focus {
-					border-color: #1abc9c;
-					box-shadow: 0 0 0 1px #1abc9c;
+					border-color: #ffa347;
+					box-shadow: 0 0 0 1px #ffa347;
 				}
 
 			.wrapper.style1 .select-wrapper:before {
@@ -2764,15 +2782,15 @@ take precedence the ones in this file. */
 
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
-				background-color: #1abc9c;
-				border-color: #1abc9c;
+				background-color: #ffa347;
+				border-color:#ffa347;
 				color: #fff;
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
 			.wrapper.style1 input[type="radio"]:focus + label:before {
-				border-color: #1abc9c;
-				box-shadow: 0 0 0 1px #1abc9c;
+				border-color: #ffa347;
+				box-shadow: 0 0 0 1px #ffa347;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2812,7 +2830,7 @@ take precedence the ones in this file. */
 				}
 
 			.wrapper.style1 table th {
-				color: #1abc9c;
+				color: #217e9e;
 			}
 
 			.wrapper.style1 table thead {
@@ -2870,7 +2888,7 @@ take precedence the ones in this file. */
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: #1abc9c;
+				background-color: #ffa347;
 				color: #fff !important;
 			}
 
@@ -2887,7 +2905,7 @@ take precedence the ones in this file. */
 				.wrapper.style2 input[type="button"]:active,
 				.wrapper.style2 button:active,
 				.wrapper.style2 .button:active {
-					background-color: #17a689;
+					background-color: #ffa347;
 				}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3253,7 +3271,7 @@ take precedence the ones in this file. */
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			
 			width: 7em;
 		}
 
@@ -3349,7 +3367,7 @@ take precedence the ones in this file. */
 		#banner input[type="button"],
 		#banner button,
 		#banner .button {
-			background-color: #1abc9c;
+			background-color: #ffa347;
 			color: #fff !important;
 		}
 
@@ -3366,7 +3384,7 @@ take precedence the ones in this file. */
 			#banner input[type="button"]:active,
 			#banner button:active,
 			#banner .button:active {
-				background-color: #17a689;
+				background-color: #ffa347;
 			}
 
 			#banner input[type="submit"].alt,
@@ -3764,19 +3782,19 @@ take precedence the ones in this file. */
 		}
 
 			.post.style1 input, .post.style1 select, .post.style1 textarea {
-				color: #1abc9c;
+				color: #ffa347
 			}
 
 			.post.style1 a {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.post.style1 strong, .post.style1 b {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.post.style1 h1, .post.style1 h2, .post.style1 h3, .post.style1 h4, .post.style1 h5, .post.style1 h6 {
-				color: #1abc9c;
+				color: #ffa347;
 			}
 
 			.post.style1 blockquote {
@@ -3797,7 +3815,7 @@ take precedence the ones in this file. */
 			.post.style1 input[type="button"],
 			.post.style1 button,
 			.post.style1 .button {
-				background-color: #1abc9c;
+				background-color: #217e9e;
 				color: #fff !important;
 			}
 
@@ -3814,7 +3832,7 @@ take precedence the ones in this file. */
 				.post.style1 input[type="button"]:active,
 				.post.style1 button:active,
 				.post.style1 .button:active {
-					background-color: #17a689;
+					background-color: #ffa347;
 				}
 
 				.post.style1 input[type="submit"].alt,
@@ -3824,7 +3842,7 @@ take precedence the ones in this file. */
 				.post.style1 .button.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-					color: #1abc9c !important;
+					color: #217e9e !important;
 				}
 
 					.post.style1 input[type="submit"].alt:hover,
@@ -3856,12 +3874,12 @@ take precedence the ones in this file. */
 				.post.style1 input[type="button"].special,
 				.post.style1 button.special,
 				.post.style1 .button.special {
-					background-color: #1abc9c;
+					background-color: #217e9e;
 					color: #fff !important;
 				}
 
 			.post.style1.invert {
-				background-color: #1abc9c;
+				background-color: #217e9e;
 				color: rgba(255, 255, 255, 0.75);
 			}
 
@@ -3900,7 +3918,7 @@ take precedence the ones in this file. */
 				.post.style1.invert button,
 				.post.style1.invert .button {
 					background-color: #fff;
-					color: #1abc9c !important;
+					color: #217e9e !important;
 				}
 
 					.post.style1.invert input[type="submit"].alt,
@@ -3943,11 +3961,11 @@ take precedence the ones in this file. */
 					.post.style1.invert button.special,
 					.post.style1.invert .button.special {
 						background-color: #fff;
-						color: #1abc9c !important;
+						color: #217e9e !important;
 					}
 
 				.post.style1.invert .content {
-					background: #1abc9c;
+					background: #217e9e;
 				}
 
 					.post.style1.invert .content header p {
@@ -3969,7 +3987,7 @@ take precedence the ones in this file. */
 						}
 
 				.post.style1.invert .image {
-					background-color: #1abc9c;
+					background-color: #217e9e;
 				}
 
 		.post.style2 {
@@ -4011,7 +4029,7 @@ take precedence the ones in this file. */
 			.post.style2 input[type="button"],
 			.post.style2 button,
 			.post.style2 .button {
-				background-color: #1abc9c;
+				background-color: #217e9e;
 				color: #fff !important;
 			}
 
@@ -4028,7 +4046,7 @@ take precedence the ones in this file. */
 				.post.style2 input[type="button"]:active,
 				.post.style2 button:active,
 				.post.style2 .button:active {
-					background-color: #17a689;
+					background-color: #ffa347;
 				}
 
 				.post.style2 input[type="submit"].alt,
@@ -4113,7 +4131,7 @@ take precedence the ones in this file. */
 				.post.style2.invert input[type="button"],
 				.post.style2.invert button,
 				.post.style2.invert .button {
-					background-color: #1abc9c;
+					background-color: #217e9e;
 					color: #fff !important;
 				}
 
@@ -4130,7 +4148,7 @@ take precedence the ones in this file. */
 					.post.style2.invert input[type="button"]:active,
 					.post.style2.invert button:active,
 					.post.style2.invert .button:active {
-						background-color: #17a689;
+						background-color: #ffa347;
 					}
 
 					.post.style2.invert input[type="submit"].alt,
@@ -4241,7 +4259,7 @@ take precedence the ones in this file. */
 			.post.style3 input[type="button"],
 			.post.style3 button,
 			.post.style3 .button {
-				background-color: #1abc9c;
+				background-color: #217e9e;
 				color: #fff !important;
 			}
 
@@ -4258,7 +4276,7 @@ take precedence the ones in this file. */
 				.post.style3 input[type="button"]:active,
 				.post.style3 button:active,
 				.post.style3 .button:active {
-					background-color: #17a689;
+					background-color: #ffa347;
 				}
 
 				.post.style3 input[type="submit"].alt,
@@ -4343,7 +4361,7 @@ take precedence the ones in this file. */
 				.post.style3.invert input[type="button"],
 				.post.style3.invert button,
 				.post.style3.invert .button {
-					background-color: #1abc9c;
+					background-color: #217e9e;
 					color: #fff !important;
 				}
 
@@ -4360,7 +4378,7 @@ take precedence the ones in this file. */
 					.post.style3.invert input[type="button"]:active,
 					.post.style3.invert button:active,
 					.post.style3.invert .button:active {
-						background-color: #17a689;
+						background-color: #ffa347;
 					}
 
 					.post.style3.invert input[type="submit"].alt,
