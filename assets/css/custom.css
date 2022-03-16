@@ -6,7 +6,7 @@
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
  #banner {
- /* background-image: url(../../images/yogagirls.jpeg); */
+  background-image: url(../../images/FrazeeCircle3.jpg);
   background-color: #ffa347;
   background-size: cover;
   color: rgba(255, 189, 151, 0.8);
